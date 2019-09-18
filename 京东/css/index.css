@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 640px;
+}
+.box div {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  height: 45px;
+}
+.box .box1 {
+  width: 8%;
+  background: #333;
+}
+.box .box1 img {
+  width: 10px;
+  height: 10px;
+}
+.box .box2 {
+  width: 10%;
+  background: #333;
+}
+.box .box2 img {
+  width: 30px;
+  height: 30px;
+  padding-top: 8px;
+}
+.box .box3 {
+  width: 57%;
+  background: #333;
+  color: #fff;
+}
+.box .box4 {
+  width: 25%;
+  background: red;
+  color: #fff;
+}
+.search {
+  height: 44px;
+  background: darkred;
+  display: flex;
+}
+.search .left {
+  width: 40px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+.search .left img {
+  width: 20px;
+  height: 16px;
+}
+.search .right {
+  width: 40px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.search .center {
+  position: relative;
+  flex: 1;
+  height: 30px;
+  margin-top: 7px;
+  background: #fff;
+  border-radius: 15px;
+}
+.search .center .zuo {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  display: block;
+  width: 20px;
+  height: 16px;
+  background: url(../images/jd-sprites.png) no-repeat;
+  background-size: 200px auto;
+}
+.search .center .zhong {
+  position: absolute;
+  top: 7px;
+  left: 50px;
+  height: 15px;
+  border: 1px solid #ccc;
+}
+.search .center .you {
+  position: absolute;
+  top: 8px;
+  left: 60px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(../images/jd-sprites.png) no-repeat -83px 0;
+  background-size: 200px auto;
+}
+.banner a img {
+  width: 100%;
+}
+.jiadian {
+  display: flex;
+}
+.jiadian img {
+  width: 100%;
+}
+.nav a {
+  float: left;
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin-top: 10px;
+}
+.nav a img {
+  width: 40px;
+}
+.nav a span {
+  margin-top: 5px;
+  display: block;
+}
+.nie .left {
+  float: left;
+  width: 50%;
+}
+.nie .left img {
+  width: 100%;
+}
+.nie .certen {
+  float: left;
+  width: 25%;
+}
+.nie .certen img {
+  width: 100%;
+}
+.nie .right {
+  float: left;
+  width: 25%;
+}
+.nie .right img {
+  width: 100%;
+}
